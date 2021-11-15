@@ -69,7 +69,7 @@ describe('AcentFactory', () => {
   it('createPair:gas', async () => {
     const tx = await factory.createPair(...TEST_ADDRESSES)
     const receipt = await tx.wait()
-    expect(receipt.gasUsed).to.eq(2505099)
+    expect(receipt.gasUsed).to.eq(2508914)
   })
 
   it('setFeeTo', async () => {
